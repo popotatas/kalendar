@@ -1,0 +1,92 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: left; 
+    min-height: 100vh;
+    background: #Faf9f6;
+    overflow: hidden;
+    margin: 0; 
+}
+
+.wrapper {
+    background-color: #Faf9f6;
+    overflow: hidden;
+    width: 100%; 
+    max-width: 840px;
+    min-width: 840px;
+    height: fit-content;
+    margin-left: 25px;
+}
+
+header {
+    display: flex;
+    border: 5px solid #000000;
+    border-radius: 8px;
+    background-color: #Faf9f6;
+    max-height: 100px;
+    justify-content: space-between;
+    padding: 10px; 
+    max-width: 100%;
+    box-sizing: border-box; 
+    margin-bottom: -8px;
+}
+
+.material-icons {
+    color: #000000;
+    font-size: 48px;
+    cursor: pointer;
+    user-select: none;
+    margin: 0px;
+    font-weight: bold;
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    justify-content: space-between; 
+}
+
+.current_date {
+    margin: 0; 
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    letter-spacing: 10px;
+}
+.weeks, .days {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.weeks li, .days li {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 5px solid #000000;
+    padding: 32px 40px;
+    margin: 0;
+    flex: 1 0 calc(100% / 7); 
+    box-sizing: border-box;
+    max-width: calc(100%/7);
+    justify-content: center;
+}
+
+.weeks li{
+    color: #Faf9f6;
+    background-color: #000000;
+    font-weight: 600;
+    letter-spacing: 4px;
+    font-size: x-large;
+    max-height: 88px;
+}
+
